@@ -1,5 +1,9 @@
 # StarCraft Ⅱ 人工智能教程
 
+捐赠：
+![微信支付](.img/mm_facetoface_collect_qrcode_1638093578792.png)
+
+
 # 一、其他的太抽象了，先讲人机对战吧
 sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里下载并运行，目前人机对战只能在win下运行，这边特别强调一下的就是，需要以管理员身份运行。
 
@@ -30,14 +34,15 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 ![img.png](.img/aaaaavjaojoehvao.png)  
 3.主要是这个Bot zip，基本的代码架构还是要固定的 
 ![img_2.png](.img/img_2.png)  
-具体可以看下sc2-api-simple-bot这里，记得把它打包即可  
-4.成功之后，即可从profile里看到自己的机器人
-![img_3.png](.img/img_3.png)
-5.此时，bot是不会进行比赛，需要参赛，点击Competitions，然后选择赛季
-![img_4.png](.img/img_4.png)
-![img_5.png](.img/img_5.png)
-6.比赛是随机的放到队列里的，可能需要排队进行比赛，也可能主动申请和具体的机器人进行比赛，点击Request Match，进行申请比赛。
-![img_6.png](.img/img_6.png)
-7.慢慢等待，比赛结束之前都看不到结果的，也没有实时流进行查看的，结束之后就可以看到结果以及下载replay。其中arena会随机的进行一些比赛，也有可能是别人随机选的，一个bot一天大概能有50场比赛，arena也会提供统计，胜率、ELO等
-![img_7.png](.img/img_7.png)
+具体可以看下sc2-api-simple-bot这里，记得把它打包即可    
+4.成功之后，即可从profile里看到自己的机器人  
+![img_3.png](.img/img_3.png)  
+5.此时，bot是不会进行比赛，需要参赛，点击Competitions，然后选择赛季  
+![img_4.png](.img/img_4.png)  
+![img_5.png](.img/img_5.png)  
+6.比赛是随机的放到队列里的，可能需要排队进行比赛，也可能主动申请和具体的机器人进行比赛，点击Request Match，进行申请比赛。  
+![img_6.png](.img/img_6.png)  
+7.慢慢等待，比赛结束之前都看不到结果的，也没有实时流进行查看的，结束之后就可以看到结果以及下载replay。其中arena会随机的进行一些比赛，也有可能是别人随机选的，一个bot一天大概能有50场比赛，arena也会提供统计，胜率、ELO（分数）等  
+![img_7.png](.img/img_7.png)  
+
 
