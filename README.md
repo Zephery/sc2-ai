@@ -1,7 +1,7 @@
 # StarCraft Ⅱ 人工智能教程
 
 捐赠：
-![微信支付](.img/mm_facetoface_collect_qrcode_1638093578792.png)
+![img_1.png](.img/img_11.png)
 
 
 # 一、其他的太抽象了，先讲人机对战吧
@@ -32,8 +32,11 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 1.第一步肯定是先要注册登录  
 2.upload new bot  
 ![img.png](.img/aaaaavjaojoehvao.png)  
+
 3.主要是这个Bot zip，基本的代码架构还是要固定的 
+
 ![img_2.png](.img/img_2.png)  
+
 具体可以看下sc2-api-simple-bot这里，记得把它打包即可    
 4.成功之后，即可从profile里看到自己的机器人  
 ![img_3.png](.img/img_3.png)  
