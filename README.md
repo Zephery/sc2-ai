@@ -28,8 +28,10 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 
 7.全屏快捷键，Alt + Enter，进行对战
 
+我这录制了个我对战的视频，[bilibili](https://www.bilibili.com/video/BV1CL4y1p71M?share_source=copy_web)，感觉AI在对战里很容易只有一样打法，据说是强化训练后的最优选导致的，这个也不知怎么整，个人感觉MicroMachine这个AI打法稍微多样，可以多和它对战下。
+
 # 二、AI天梯
-目前没有看到什么办法让暴雪允许AI在实际的天梯上进行运行，但社区搞了个专门的AI天梯，[sc2ai](https://sc2ai.net/)，可以将代码上传到里面进行对战，实时流我没看到，对战完后可以下载replay复盘。下面讲下如何上传代码进行对战。
+目前没有看到什么办法让暴雪允许AI在实际的天梯上进行运行，但社区搞了个专门的AI天梯，[sc2ai](https://sc2ai.net/)，可以将代码上传到里面进行对战，实时流我没看到，对战完后可以下载replay复盘。下面讲下如何上传代码进行对战。  
 1.第一步肯定是先要注册登录  
 2.upload new bot  
 ![img.png](.img/aaaaavjaojoehvao.png)  
@@ -38,7 +40,7 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 
 ![img_2.png](.img/img_2.png)  
 
-具体可以看下sc2-api-simple-bot这里，记得把它打包即可    
+具体可以看下[sc2-api-simple-bot](https://github.com/Zephery/sc2-api-simple-bot.git)这里，记得把它打包即可    
 4.成功之后，即可从profile里看到自己的机器人  
 ![img_3.png](.img/img_3.png)  
 5.此时，bot是不会进行比赛，需要参赛，点击Competitions，然后选择赛季  
@@ -49,4 +51,6 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 7.慢慢等待，比赛结束之前都看不到结果的，也没有实时流进行查看的，结束之后就可以看到结果以及下载replay。其中arena会随机的进行一些比赛，也有可能是别人随机选的，一个bot一天大概能有50场比赛，arena也会提供统计，胜率、ELO（分数）等  
 ![img_7.png](.img/img_7.png)  
 
-
+# Bot开发样例
+https://github.com/Zephery/sc2-api-simple-bot.git  
+https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/155
